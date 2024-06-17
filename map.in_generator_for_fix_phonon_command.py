@@ -5,6 +5,7 @@ from pymatgen.io.lammps.data import LammpsData
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 
 if __name__ == "__main__":
+   
     """
     Script to generate the map file needed by fix-phonon from a data file or POSCAR.
 
@@ -19,6 +20,7 @@ if __name__ == "__main__":
     July 2022
 
     """
+    
     import os
     import numpy as np
     import argparse
