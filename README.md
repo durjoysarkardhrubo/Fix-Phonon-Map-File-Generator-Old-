@@ -13,3 +13,12 @@ To install Pymatgen, you can use pip:
 
 ```sh
 pip install pymatgen
+
+## To generate a map file from a POSCAR:
+```sh
+python generate_map.py POSCAR -s poscar -o map.in -p 0.01 -a 5
+
+## To generate a map file from a LAMMPS data file:
+```sh
+python generate_map.py data.lammps -s atomic -o map.in -p 0.01 -a 5
+
